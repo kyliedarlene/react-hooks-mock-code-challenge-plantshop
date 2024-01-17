@@ -2,7 +2,7 @@ import React from "react";
 import PlantCard from "./PlantCard";
 
 function PlantList({ plants }) {
-  console.log("plants [] in PlantList: " + plants);
+  console.log("plants [] in PlantList: ")
   
   return (
     <ul className="cards">

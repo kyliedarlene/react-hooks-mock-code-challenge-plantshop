@@ -5,6 +5,8 @@ function PlantCard({
   name = "plant name",
   price = "0.00"
 }) {
+  console.log("in Plant Card")
+  
   return (
     <li className="card">
       <img src={image} alt={name} />
